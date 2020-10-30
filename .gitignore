@@ -1,0 +1,38 @@
+###############################################################################
+# Ignore
+###############################################################################
+
+# All files and directories starting with . or ~
+.*
+~*
+
+# OS generated files and directories
+ehthumbs.db
+Thumbs.db
+
+# Package management files and directories
+node_modules
+jspm_packages
+npm-debug.*
+yarn-error.*
+package-lock.json
+
+# Build files and directories
+build
+dist
+.env
+.env*
+
+# Logs
+logs
+*.logs
+
+###############################################################################
+# Track
+###############################################################################
+
+!.*.example
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.gitkeep

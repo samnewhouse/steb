@@ -1,0 +1,30 @@
+{
+  "name": "steb",
+  "version": "1.0.0",
+  "description": "Stylus Typescript Extension Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "stylus src/ -o dist/ && webpack --config webpack.config.js",
+    "styles": "stylus src/ -o dist/",
+    "watch:styles": "stylus src/ -o dist/ --watch",
+    "watch:webpack": "webpack --config webpack.config.js -w",
+    "watch": "rm -rf dist && npm-run-all -p watch:*"
+  },
+  "keywords": [],
+  "author": "Sam Newhouse",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "0.0.124",
+    "@types/node": "^14.11.8",
+    "awesome-typescript-loader": "^5.2.1",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^4.3.0",
+    "mini-css-extract-plugin": "^1.0.0",
+    "npm-run-all": "^4.1.5",
+    "stylus-loader": "^4.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.3",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
